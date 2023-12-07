@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0%;
+    display: flex;
+    align-items: baseline;
+    align-content: baseline;
+    justify-content: baseline;
+    height: 800px;
+  }
+  .background-input{
+    height: 100px;
+    padding: 50px 670px;
+    background-image: url('images/background_image_login_3.jpg');
+    min-height: 800px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin: 0%;
+
+  }
+
+  .Sign-up_container {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #ffff;
+    padding: 40px 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-style: solid;
+    border-color: black;
+    width: 400px;
+    right: 20px;
+    position: absolute;
+    margin: 8px;
+  }
+
+  .Sign-up_container  h2 {
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  
+
+  .Sign-up_form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form-group {
+    margin-bottom: 20px;
+  }
+
+  .form-group label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  .form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  .form-group button {
+
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    }
+
+  .form-group button:hover {
+    background-color: #04AA6D;
+  }
